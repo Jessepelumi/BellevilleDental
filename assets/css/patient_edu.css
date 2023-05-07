@@ -93,7 +93,7 @@ button:hover {
         background-color: var(--first);
         background-blend-mode: multiply;
         padding-inline: 5%;
-        padding-block: 10%;
+        padding-block: 15%;
     }
     
     .header_body {
@@ -301,7 +301,6 @@ button:hover {
     }
     
     .main {
-        /* border: 1px solid var(--first); */
         box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
         background-color: var(--neutral2);
     }

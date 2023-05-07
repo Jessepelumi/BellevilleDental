@@ -62,26 +62,26 @@ const products = [
     {
         name: "General information",
         value: "Get to know the basics of dental health",
-        duration: "2-4 Months",
-        photo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/3e/2e7617db4f41159ef04dd51da70278/Asset-1.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25",
+        duration: "2 Hours",
+        photo: "https://img.freepik.com/free-vector/dental-patient-card-abstract-concept-vector-illustration-referral-card-holder-dental-office-loyalty-program-electronic-medical-record-patient-data-smart-information-system-abstract-metaphor_335657-4028.jpg?size=626&ext=jpg&uid=R99624557&ga=GA1.2.1664086905.1681670100&semt=ais",
     },
     {
         name: "Children dental care",
         value: "Role of parents in children's dental development",
-        duration: "2-4 Months",
-        photo: "https://t3.ftcdn.net/jpg/00/56/96/24/240_F_56962404_aTiKdfNfLlLGetojOulk19M9llRDBxKb.jpg",
+        duration: "3 Hours",
+        photo: "https://img.freepik.com/free-photo/little-girl-sitting-dental-chair-posing-clinic_651396-1407.jpg?size=626&ext=jpg&uid=R99624557&ga=GA1.2.1664086905.1681670100&semt=ais",
     },
     {
-        name: "Technnology in Dentistry",
-        value: "1000+ Students",
-        duration: "1 Month",
-        photo: "https://img.freepik.com/free-photo/patient-pov-listening-explication-teeth-treatment-dentist-coverall-showing-x-ray-tablet-stomatology-specialist-wearing-protective-suit-against-infection-with-covid19-pointing-radiograph_482257-13149.jpg?w=1380&t=st=1682743754~exp=1682744354~hmac=fa7ce4054bd9d64116c9b22bcaad66131a0d21c69ac6094576f29a738aef342d",
+        name: "Teaching oral care",
+        value: "Role of school teachers in children's dental development",
+        duration: "3 Hours",
+        photo: "https://img.freepik.com/free-photo/stomatologist-explaining-proper-dental-hygiene-using-presentation-teeth-skeleton-extracting-mass-from-it-dentist-telling-kid-procedure-holding-sample-human-jaw-stomatology-office_482257-13326.jpg?size=626&ext=jpg&uid=R99624557&ga=GA1.1.1664086905.1681670100&semt=ais",
     },
     {
-        name: "Research Planning",
-        value: "1000+ Students",
-        duration: "1-3 Months",
-        photo: "https://img.freepik.com/free-vector/dentist-with-magnifier-ladder-examining-huge-patient-tooth-dental-chair-private-dentistry-dental-service-private-dental-clinic-concept-pinkish-coral-bluevector-vector-isolated-illustration_335657-1563.jpg?w=1060&t=st=1682743899~exp=1682744499~hmac=263097a8853239b567ab46c3bca5f5d2637a2064abca845c5e66b11933c2d083",
+        name: "Best Practices",
+        value: "Things parents and teachers can do incase of emergencies",
+        duration: "2 Hours",
+        photo: "https://img.freepik.com/free-photo/dental-implants-surgery-concept-pen-tool-created-clipping-path-included-jpeg-easy-composite_460848-10421.jpg?size=626&ext=jpg&uid=R99624557&ga=GA1.2.1664086905.1681670100&semt=ais",
     }
 ];
 
@@ -101,7 +101,7 @@ for (let product of products) {
 
     const nameEl = document.createElement("p");
     nameEl.innerText = product.name;
-    nameEl.classList.add("name");
+    nameEl.classList.add("name", "fw-bold");
 
     const valueEl = document.createElement("p");
     valueEl.innerHTML = product.value;
@@ -110,10 +110,29 @@ for (let product of products) {
     durationEl.innerHTML = "Duration: " + product.duration;
 
     const purchase = document.createElement("button");
-    purchase.innerText = "Register Now"
+    purchase.innerText = "Read Now";
+    purchase.setAttribute("type", "button");
 
     productEl.append(nameEl, valueEl, durationEl, purchase);
     productBox.append(photoEl, productEl)
 
     container.appendChild(productBox);
 }
+
+$('#exampleModal').modal({
+    show: true
+})
+
+
+const burger = document.getElementById("burger");
+const close = document.getElementById("close");
+const menu = document.getElementById("menu");
+burger.addEventListener("click", () => {
+    if (menu.classList.contains("d-none")) {
+        menu.classList.remove("d-none");
+    }
+})
+
+close.addEventListener("click", () => {
+    menu.classList.add("d-none");
+})

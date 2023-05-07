@@ -18,6 +18,12 @@
             </a>
         </div>
 
+		<div class="burger" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </div>
+
         <div class="navigation_links">
             <nav>
                 <ul>
@@ -28,6 +34,24 @@
                 </ul>
             </nav>
         </div>
+    </div>
+
+	<div class="hidden_menu d-none" id="menu">
+        <div>
+            <span class="fs-3">Belleville</span>
+            <span id="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </span>
+        </div>
+
+        <ul class="fs-1">
+            <li><a href="professional_edu.html">Professional Education</a></li>
+            <li><a href="patient_edu.html">Patient Education</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
     </div>
 
 	<header>
@@ -49,9 +73,11 @@
 	</header>
 
 	<div>
-		<h6 class="pb-2 fs-5 text-center">Our modueles</h6>
+		<h6 class="pt-3 fs-5 text-center">Our modueles</h6>
 
-		<div class="container py-5"></div>
+		<div class="container py-5">
+
+		</div>
 	</div>
 
 	<footer class="p-3">
@@ -164,6 +190,29 @@
 
     </footer>
     <div id="ticker"></div>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable modal-xl">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Faculty Resources</h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p>
+					Most of our classes are taken online. Students must be available for in-person laboratory sessions and research classes. First stream of courses are completly online.
+				</p>
+				<p>
+					We have some of our courses below:
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button class="fw-bold close_modal" data-bs-dismiss="modal">
+					CLOSE
+				</button>
+		  </div>
+		</div>
+	</div>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

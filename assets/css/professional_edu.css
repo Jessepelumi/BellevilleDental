@@ -407,6 +407,10 @@ button:hover {
         display: flex;
         gap: 5%;
     }
+
+    .school_img {
+        width: 50%;
+    }
     
     .school_img img {
         width: 100%;
@@ -415,6 +419,7 @@ button:hover {
     
     .message {
         position: relative;
+        width: 50%;
     }
     
     .btn_el {

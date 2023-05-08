@@ -1,3 +1,5 @@
+AOS.init();
+
 const products = [
     {
         name: "Oral-B Rechargeable Toothbrush",

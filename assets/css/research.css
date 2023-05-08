@@ -89,7 +89,7 @@ button:hover {
     }
 
     header {
-        background-image: url(/assets/images/white_bg.avif);
+        background-image: url(https://img.freepik.com/premium-vector/abstract-medical-background-with-hexagons-concepts-ideas-healthcare-technology-innovation-medicine-health-science-research_120542-423.jpg);
         background-color: var(--first);
         background-blend-mode: multiply;
         padding-inline: 5%;
@@ -317,7 +317,7 @@ button:hover {
     }
     
     header {
-        background-image: url(/assets/images/white_bg.avif);
+        background-image: url(https://img.freepik.com/premium-vector/abstract-medical-background-with-hexagons-concepts-ideas-healthcare-technology-innovation-medicine-health-science-research_120542-423.jpg);
         background-color: var(--first);
         background-blend-mode: multiply;
         padding-inline: 20%;

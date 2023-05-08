@@ -9,6 +9,10 @@ html {
     --fourth: #3fb4f3;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 button {
     background-color: var(--neutral2);
     color: var(--first);

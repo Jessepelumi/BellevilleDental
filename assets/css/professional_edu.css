@@ -190,6 +190,15 @@ button:hover {
         grid-template-columns: 1fr;
         gap: 0.5%;
     }
+
+    .main button a {
+        text-decoration: none;
+        color: var(--first);
+    }
+    
+    .main button a:hover {
+        color: var(--neutral2);
+    }
     
     
 
@@ -452,7 +461,22 @@ button:hover {
         grid-template-columns: 1fr 1fr  1fr;
         gap: 1%;
     }
+
+    .my_tabs ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main button a {
+        text-decoration: none;
+        color: var(--first);
+    }
     
+    .main button a:hover {
+        color: var(--neutral2);
+    }
+
     footer {
         background-color: var(--first);
         color: var(--neutral2);

@@ -211,3 +211,8 @@ burger.addEventListener("click", () => {
 close.addEventListener("click", () => {
     menu.classList.add("d-none");
 })
+
+let visitorCount = localStorage.getItem('visitorCount') || 0;
+visitorCount++;
+localStorage.getItem('visitorCount', visitorCount);
+document.getElementById('visitorCount').innerHTML = visitorCount;

@@ -1,5 +1,3 @@
-AOS.init();
-
 console.log(window.scrollY)
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('.navigation')

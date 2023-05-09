@@ -202,6 +202,13 @@ button:hover {
         gap: 0.5%;
     }
 
+    .my_tabs ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
     .main button a {
         text-decoration: none;
         color: var(--first);

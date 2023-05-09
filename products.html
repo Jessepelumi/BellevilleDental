@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="assets/css/product.css">
     <title>Products</title>
 </head>
-<body class="">
+<body>
+    <!-- navigation start -->
     <div class="navigation px-3">
         <div class="label">
+            <!-- logo -->
             <a href="belleville.html">
                 <img src="assets/images/logo_image.png" alt="dental">
                 <span class="fs-4">Belleville</span>
             </a>
         </div>
 
+        <!-- collapsed menu button -->
         <div class="burger" id="burger">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg>
         </div>
 
+        <!-- navigation links -->
         <div class="navigation_links">
             <nav>
                 <ul>
@@ -37,6 +41,7 @@
         </div>
     </div>
 
+    <!-- collapsed menu navigation links -->
     <div class="hidden_menu d-none" id="menu">
         <div>
             <span class="fs-3">Belleville</span>
@@ -55,13 +60,16 @@
         </ul>
     </div>
 
+    <!-- header start -->
     <div class="head">
+        <!-- header text -->
         <div class="fs-1 text-uppercase" data-aos="fade-up"
         data-aos-duration="1000">Shop with us for the best experience</div>
         <div class="fs-6" data-aos="fade-up"
         data-aos-duration="1000">Our products are from varieties of manufacturers, and are carefully selected with thoughts centering around you, our esteemed customer.</div>
     </div>
 
+    <!-- product container drawn from product.js -->
     <div class="container py-5">
         <div class="rating">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -405,6 +413,7 @@
         </div>
     </div>
     
+    <!-- visitor counter -->
     <div class="visitor">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
             <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
@@ -412,6 +421,8 @@
         <span id="visitorCount">0</span>
     </div>
 
+
+    <!-- footer section -->
     <footer class="p-3" data-aos="fade-up"
     data-aos-duration="1000">
         <div class="first px-3">
@@ -521,6 +532,7 @@
             &copy 2023 Copyright: Belleville Dental
         </div>
     </footer>
+    <!-- sliding ticker element -->
     <div id="ticker"></div>
 
 

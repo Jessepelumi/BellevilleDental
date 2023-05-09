@@ -37,6 +37,14 @@ button:hover {
     margin: 1%;
 }
 
+.rating svg {
+    color: gray;
+}
+
+.rating svg.active {
+    color: #ff9c1a;
+}
+
 @media only screen
  and (min-device-width: 220px)
  and (max-device-width: 480px) {

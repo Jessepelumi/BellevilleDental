@@ -122,7 +122,7 @@ button:hover {
     }
     
     .header_image svg {
-        width: 300px;
+        width: 100%;
     }
     
     .about_text {
@@ -240,11 +240,11 @@ button:hover {
     }
     
     .other_image {
-        width: 35%;
+        width: 100%;
     }
     
     .other_image img {
-        height: 300px;
+        width: 100%;
         aspect-ratio: 1;
     }
     

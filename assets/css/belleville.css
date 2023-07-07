@@ -348,6 +348,26 @@ button:hover {
         width: 100%;
         text-align: center;
     }
+
+    .modal {
+        color: var(--neutral1);
+    }
+    
+    .modal_container {
+        color: var(--first);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5%;
+    }
+
+    .box {
+        padding: 20px;
+    }
+    
+    .img {
+        width: 100%;
+        aspect-ratio: 1.3/1;
+    }
     
     #ticker {
         position: fixed;
@@ -675,6 +695,26 @@ button:hover {
         color: var(--neutral2);
         width: 100%;
         text-align: center;
+    }
+
+    .modal {
+        color: var(--neutral1);
+    }
+    
+    .modal_container {
+        color: var(--first);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5%;
+    }
+
+    .box {
+        padding: 20px;
+    }
+    
+    .img {
+        width: 100%;
+        aspect-ratio: 1.3/1;
     }
     
     #ticker {
@@ -1009,6 +1049,26 @@ button:hover {
         justify-content: center;
         align-items: center;
     
+    }
+
+    .modal {
+        color: var(--neutral1);
+    }
+    
+    .modal_container {
+        color: var(--first);
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr;
+        gap: 1%;
+    }
+
+    .box {
+        padding: 20px;
+    }
+    
+    .img {
+        width: 100%;
+        aspect-ratio: 1.3/1;
     }
     
     #ticker {

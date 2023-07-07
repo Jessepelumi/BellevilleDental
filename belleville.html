@@ -145,9 +145,11 @@
                     At our dental hospital, we believe that communication is key to a successful dentist-patient relationship. We take the time to listen to our patients' concerns and explain all treatment options in detail so that they can make informed decisions about their dental care.
                 </p>
             </p>
-            <button class="mt-5 px-3 py-1">
-                SEE MORE
-            </button>
+            <div class="btn_el mt-5">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    SEE MORE
+                </button>
+            </div>
         </div>
     </div>
 
@@ -518,6 +520,28 @@
 
     <!--   -->
     <div id="ticker"></div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable modal-xl">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Meet Our Principal Staff</h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div>
+					<div class="modal_container pb-4">
+
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="fw-bold" data-bs-dismiss="modal">
+					CLOSE
+				</button>
+		  </div>
+		</div>
+	</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

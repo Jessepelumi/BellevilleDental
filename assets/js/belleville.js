@@ -154,7 +154,7 @@ let visitorCount = localStorage.getItem('visitorCount') || 0
     
         // const purchase = document.createElement("button");
         // purchase.innerHTML = `Details`
-    
+           
         productEl.append(nameEl, valueEl);
         productBox.append(photoEl, productEl)
     

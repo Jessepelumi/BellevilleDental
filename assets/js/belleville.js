@@ -112,7 +112,7 @@ let visitorCount = localStorage.getItem('visitorCount') || 0
         {
             name: "Dr. Mabel Restania",
             value: "Director, Belleville School of Dentistry",
-            photo: "http://127.0.0.1:5501/assets/images/faculty_head.jpg",
+            photo: "https://img.freepik.com/foto-gratis/doctor-sonriente-vista-lateral-trabajo_23-2149726960.jpg?w=1060&t=st=1688700594~exp=1688701194~hmac=49381619c717f77a345dcdb4902032d02b0cea4c8183f262d5177a378c15e2dc",
         },
         {
             name: "Dr. Jennifer Adams",
